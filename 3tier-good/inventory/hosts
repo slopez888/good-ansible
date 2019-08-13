@@ -5,7 +5,7 @@ frontend.ebbf.internal ansible_ssh_host=10.10.10.5
 app1.ebbf.internal ansible_ssh_host=10.10.10.12
 app2.ebbf.internal ansible_ssh_host=10.10.10.11
 
-[db]
+[dbs]
 db.ebbf.internal ansible_ssh_host=10.10.10.7
 
 ## These are the support
