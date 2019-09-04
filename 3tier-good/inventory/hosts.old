@@ -1,0 +1,14 @@
+[frontends]
+frontend.8dd7.internal ansible_ssh_host=10.10.10.4
+
+[apps]
+app1.8dd7.internal ansible_ssh_host=10.10.10.6
+app2.8dd7.internal ansible_ssh_host=10.10.10.13
+
+[dbs]
+db.8dd7.internal ansible_ssh_host=10.10.10.12
+
+## These are the support
+#[support]
+#support1.8dd7.internal ansible_ssh_host=support1.8dd7.example.opentlc.com
+
