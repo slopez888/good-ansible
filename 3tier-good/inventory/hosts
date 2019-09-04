@@ -1,14 +1,14 @@
 [frontends]
-frontend.ebbf.internal ansible_ssh_host=10.10.10.5
+frontend.ebbf.internal ansible_ssh_host=10.10.10.4
 
 [apps]
-app1.ebbf.internal ansible_ssh_host=10.10.10.12
-app2.ebbf.internal ansible_ssh_host=10.10.10.11
+app1.ebbf.internal ansible_ssh_host=10.10.10.6
+app2.ebbf.internal ansible_ssh_host=10.10.10.13
 
 [dbs]
-db.ebbf.internal ansible_ssh_host=10.10.10.7
+db.ebbf.internal ansible_ssh_host=10.10.10.12
 
 ## These are the support
-[support]
-support1.ebbf.internal ansible_ssh_host=support1.ebbf.example.opentlc.com
+#[support]
+#support1.ebbf.internal ansible_ssh_host=support1.ebbf.example.opentlc.com
 
