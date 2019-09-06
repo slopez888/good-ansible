@@ -2,11 +2,11 @@
 ansible_ssh_host=frontend.8dd7.example.opentlc.com
 
 [apps]
-ansible_ssh_host=app1.8dd7.example.opentlc.com
-ansible_ssh_host=app2.8dd7.example.opentlc.com
+ansible_host=app1.8dd7.example.opentlc.com
+ansible_host=app2.8dd7.example.opentlc.com
 
 [dbs]
-ansible_ssh_host=db.8dd7.example.opentlc.com
+ansible_host=db.8dd7.example.opentlc.com
 
 ## These are the support
 #[support]
